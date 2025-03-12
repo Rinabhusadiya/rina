@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body{
+            background-image: url(img2.jpg);
+            background-size: cover;
+            font-size: xx-large;
+            padding: 170px;
+            margin: 250px;
+        }
+        h1{
+        
+        background-image: url(img4.jpg);
+        background-size: cover;
+        color: transparent;
+        -webkit-background-clip: text;
+        font-size: xx-large;
+        
+        }
+        .div{
+        width: 8px solid black;
+        border: 8px solid darkslategray;
+        padding: 20px;
+        }
+    </style>
+</head>
+    <body>
+    <h1> <center>SUM AND AVERAGE</center></h1>
+    <div class="div">
+    <script>
+        
+        let a, b,sum,avg;
+        a = Number(prompt("enter first number"));
+        b = Number(prompt("enter second number"));
+        sum = a + b;
+        avg = sum / 2;
+
+        document.write ("<center><i>sum  " + sum  + "<center><i>average  " + avg);
+    </script>
+    </div>
+
+   
+</body>
+
+</html>
